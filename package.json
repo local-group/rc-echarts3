@@ -1,0 +1,32 @@
+{
+  "name": "rc-echarts3",
+  "version": "0.3.1",
+  "description": "Echarts3 for React",
+  "main": "lib/index.js",
+  "repository": "https://github.com/local-group/rc-echarts3.git",
+  "author": "Qian Linfeng <thewawar@gmail.com>",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "reactjs",
+    "baidu",
+    "echart",
+    "echarts",
+    "echarts3"
+  ],
+  "dependencies": {
+    "echarts": "^3.3.2"
+  },
+  "peerDependencies": {
+    "react": ">=0.14.2",
+    "react-dom": ">=0.14.2"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.0",
+    "babel-cli": "^6.18.0",
+    "webpack": "^1.12.9"
+  },
+  "scripts": {
+    "build": "rm -rf lib && babel src --out-dir lib"
+  }
+}
